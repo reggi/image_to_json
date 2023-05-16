@@ -1,6 +1,6 @@
 import path from "https://deno.land/std@0.152.0/node/path.ts";
 import { Base64 } from "https://deno.land/x/bb64/mod.ts";
-import { appendJSONFileOrPrint, fileOrDirectoryHandler } from "./main.ts";
+import { appendJSONFileOrPrint, fileOrDirectoryHandler } from "./mod.ts";
 
 const imageOrDirectory = Deno.args[0]
 const jsonFile = Deno.args[1]

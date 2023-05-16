@@ -8,9 +8,9 @@ It is nice to be able to easily save a JSON file and use the Deno module import 
 deno run --allow-read --allow-write ./bin.ts <imageOrDirectory> [<jsonFile>]
 ```
 
-Script is available `https://raw.githubusercontent.com/reggi/image-to-json/main/bin.ts`.
+Script is available `https://raw.githubusercontent.com/reggi/image-to-json/main/cmd.ts`.
 Requires `--allow-read --allow-write`.
 
 ```bash
-deno run --allow-read --allow-write https://raw.githubusercontent.com/reggi/image-to-json/main/bin.ts /Users/thomasreggi/Desktop/download.jpg data.json
+deno run --allow-read --allow-write https://raw.githubusercontent.com/reggi/image-to-json/main/cmd.ts /Users/thomasreggi/Desktop/download.jpg data.json
 ```
