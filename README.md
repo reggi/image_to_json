@@ -1,4 +1,4 @@
-# Image To JSON
+# Image to JSON
 
 > 🎆🔐 Convert an image (or folder of images) into a json file uses base64 
 
